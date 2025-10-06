@@ -1,0 +1,18 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+  font-family: 'Google Sans',' google-sans', 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: start;
+  background-color: 'F5F4EF';
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
