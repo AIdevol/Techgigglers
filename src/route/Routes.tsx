@@ -1,6 +1,6 @@
 // src/Routes.tsx
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import AboutUs from '../pages/AboutUs';
 import OurProcess from '../pages/OurProcess';
 import Services from '../pages/Services';

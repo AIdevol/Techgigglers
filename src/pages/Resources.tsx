@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BookOpen, Code, Lightbulb, Download, ArrowRight, Search, Filter, FileText, Video, Headphones, Sparkles, ExternalLink } from 'lucide-react';
+import { useState } from 'react';
+import { BookOpen, Code, Lightbulb, ArrowRight, Search, Video, Headphones, Sparkles, ExternalLink } from 'lucide-react';
 
 const Resources = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);

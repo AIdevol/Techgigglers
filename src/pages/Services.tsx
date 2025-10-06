@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Code, Smartphone, Palette, Zap, Rocket, Search, ShoppingCart, Database, ArrowRight, CheckCircle, Sparkles, Target, Clock, Shield } from 'lucide-react';
+import { useState } from 'react';
+import { Code, Smartphone, Palette, Zap, Rocket, Search, Database, ArrowRight, CheckCircle, Sparkles, Target, Clock, Shield } from 'lucide-react';
 
 const Services = () => {
   const [hoveredService, setHoveredService] = useState<number | null>(null);

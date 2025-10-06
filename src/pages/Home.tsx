@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowRight, Zap, Shield, Rocket, Code, Sparkles, Star, ChevronRight, Play, CheckCircle } from 'lucide-react';
 
 const HomeView = () => {

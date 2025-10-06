@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Lightbulb, MessageSquare, Palette, Code, Rocket, CheckCircle, ArrowRight, Sparkles, Zap, Target, Users, Clock, TrendingUp } from 'lucide-react';
 
 const OurProcess = () => {

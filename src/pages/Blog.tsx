@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Calendar, Clock, ArrowRight, Tag, Search, TrendingUp, Sparkles, BookOpen, Code, Lightbulb, Rocket, Users } from 'lucide-react';
+import { useState } from 'react';
+import { Calendar, Clock, ArrowRight, Tag, Search, TrendingUp, Sparkles, BookOpen, Code, Lightbulb, Rocket } from 'lucide-react';
 
 const Blog = () => {
   const [hoveredPost, setHoveredPost] = useState<number | null>(null);

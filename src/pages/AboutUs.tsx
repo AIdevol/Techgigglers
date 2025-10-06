@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Users, Target, Lightbulb, Award, ArrowRight, Code, Rocket, Heart, Mail, Sparkles } from 'lucide-react';
+import { useState } from 'react';
+import { Users, Lightbulb, Award, Code, Heart, Mail, Sparkles } from 'lucide-react';
 
 const AboutUs = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
