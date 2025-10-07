@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Briefcase, MapPin, Clock, DollarSign, Users, Heart, Zap, Coffee, Rocket, ArrowRight, Sparkles, TrendingUp, Award, Laptop } from 'lucide-react';
+import  { useState } from 'react';
+import { Briefcase, MapPin, Clock, DollarSign, Users, Heart, Coffee, Rocket, ArrowRight, Sparkles, TrendingUp, Award, Laptop } from 'lucide-react';
 
 const Career = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);

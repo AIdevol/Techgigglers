@@ -3,7 +3,7 @@ import { ArrowRight, Zap, Shield, Rocket, Code, Sparkles, Star, ChevronRight, Pl
 
 const HomeView = () => {
   const [activeService, setActiveService] = useState(0);
-  const [scrollY, setScrollY] = useState(0);
+  const [, setScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);

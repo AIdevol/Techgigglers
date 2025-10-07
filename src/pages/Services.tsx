@@ -3,7 +3,6 @@ import { Code, Smartphone, Palette, Zap, Rocket, Search, Database, ArrowRight, C
 
 const Services = () => {
   const [hoveredService, setHoveredService] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState(0);
 
   const services = [
     {
